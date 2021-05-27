@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenIn",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenOut",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountIn",
+						"type": "uint256"
+					}
+				],
+				"name": "quote",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountOut",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/Uniloan.sol": "IUniswapOracleRouter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/Uniloan.sol": {
+			"keccak256": "0xe446e7132f4d6bc37cc86f1e3b932f1b1d9b092aeb57c1f4f3595757980786c7",
+			"urls": [
+				"bzz-raw://d5f53e4a38a683a663db65983110c2900fc0aa1db588c583eef3364a136603cf",
+				"dweb:/ipfs/QmZWhNGbvbiWwY2PW1deacxawM5yYLuCCbYCMhuGJniCzk"
+			]
+		}
+	},
+	"version": 1
+}

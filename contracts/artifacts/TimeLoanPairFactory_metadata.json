@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addresses",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract IUniswapV2Pair",
+						"name": "_pair",
+						"type": "address"
+					}
+				],
+				"name": "deploy",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "deployed",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "pairs",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"deploy(address)": {
+					"params": {
+						"_pair": "The uniswap pair to deploy"
+					},
+					"returns": {
+						"_0": "address of the deployed pair"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {
+				"addresses()": {
+					"notice": "returns all the addresses in a single view"
+				},
+				"deploy(address)": {
+					"notice": "Deploy an undeployed pair for a given pool"
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/TimeLoans.sol": "TimeLoanPairFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/TimeLoans.sol": {
+			"keccak256": "0x638e6207f3d38171bb60957de188abbdf1645e4c9e780b672cca908b6c921786",
+			"urls": [
+				"bzz-raw://0e4ae48fec063309f8acfccf835c0a441b2b14ee0ceb2e83708276a17d2d7a73",
+				"dweb:/ipfs/QmWVWc534s547PjSEB6fYcjXETrGUkiwt88vrMbceG1bCT"
+			]
+		}
+	},
+	"version": 1
+}
